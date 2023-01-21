@@ -22,8 +22,7 @@
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
-*.dll
+# Shared objects (exc. Windows DLLs)
 *.so
 *.so.*
 *.dylib
