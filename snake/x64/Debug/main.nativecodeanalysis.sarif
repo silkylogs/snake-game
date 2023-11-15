@@ -1,0 +1,460 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30138.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x64\\c1.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x004BC1B0 -il C:\\Users\\User\\AppData\\Local\\Temp\\_CL_727afe6dast -typedil -f main.c -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930138 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -I D:\\root\\code-projects\\snake\\ -nologo -W 4 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Fox64\\Debug\\main.obj -Fdx64\\Debug\\vc142.pdb -external:W 4 -Gd -analyze:projectdirectory D:\\root\\code-projects\\snake\\snake -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/snake/main.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "3204e9c607df7bf4840f69fdb7953f08"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/snake_logic/snake_logic.h"
+          },
+          "hashes": {
+            "md5": "50ec57b73034b415322f927c69d571d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/list/list.h"
+          },
+          "hashes": {
+            "md5": "f99eeb3f66c2edd783b9fa1fcec823ef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl.h"
+          },
+          "hashes": {
+            "md5": "7de92219697d009c0cf1f6af6d16ec63"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_main.h"
+          },
+          "hashes": {
+            "md5": "5990d5714f5b9684c59a8a8150b5fbcc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_stdinc.h"
+          },
+          "hashes": {
+            "md5": "07ffdf17855271d32c0ba2ed66254f7c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_config.h"
+          },
+          "hashes": {
+            "md5": "09b633f7947523e3774b0bd188550839"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_platform.h"
+          },
+          "hashes": {
+            "md5": "1ee51941b4947921c12ca46d71ae75c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/begin_code.h"
+          },
+          "hashes": {
+            "md5": "432527df7facd236deefda12448b9adc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/close_code.h"
+          },
+          "hashes": {
+            "md5": "341027f5027f0c4b7da605c4853e008f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_assert.h"
+          },
+          "hashes": {
+            "md5": "c18a922382c33dceac70c11a8e328bcf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_atomic.h"
+          },
+          "hashes": {
+            "md5": "7f191ac2886f81ff8f7fe5a15b5a095a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_audio.h"
+          },
+          "hashes": {
+            "md5": "e96539d16ff13039a043b0746f7050ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_error.h"
+          },
+          "hashes": {
+            "md5": "1f9a1f76bab26ff59c21bd8e86fe4a3b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_endian.h"
+          },
+          "hashes": {
+            "md5": "630c83e4fe36ce50624445a6524a2575"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_mutex.h"
+          },
+          "hashes": {
+            "md5": "14ce07e8ae511e1d26bf580db3aae386"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_thread.h"
+          },
+          "hashes": {
+            "md5": "f6ffde2da13220ce5385df0216ef99ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_rwops.h"
+          },
+          "hashes": {
+            "md5": "bdc878e9cb3f7f852ec1ae84f74dae92"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_clipboard.h"
+          },
+          "hashes": {
+            "md5": "e6c8fafd630bd334a87c892b954fe4e6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_cpuinfo.h"
+          },
+          "hashes": {
+            "md5": "9b2a635ce862c1c1abf183e1ff6abb93"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_events.h"
+          },
+          "hashes": {
+            "md5": "83c93c7fc4179a7041315bfe39eca5d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_video.h"
+          },
+          "hashes": {
+            "md5": "28f6426f68bfc5b2eb9244e7dcda3979"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_pixels.h"
+          },
+          "hashes": {
+            "md5": "2cf810058830026af8e3ea5df3649306"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_rect.h"
+          },
+          "hashes": {
+            "md5": "7125a779d30cd477e1e2aedbc0e80dff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_surface.h"
+          },
+          "hashes": {
+            "md5": "7169a2c17042c4cf2f29a99fb3f2b59c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_blendmode.h"
+          },
+          "hashes": {
+            "md5": "b8afce90f604508b4dfa81feed7b7f69"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_keyboard.h"
+          },
+          "hashes": {
+            "md5": "6ee1dbab2121d9c4b3944f2c8319be49"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_keycode.h"
+          },
+          "hashes": {
+            "md5": "cd4c85285e7ac2253589f7b85e635a64"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_scancode.h"
+          },
+          "hashes": {
+            "md5": "e6f23cc05509e33a1c16c453d4dbb9f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_mouse.h"
+          },
+          "hashes": {
+            "md5": "c7a4906a5cde56d2e388053cdee8a45c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_joystick.h"
+          },
+          "hashes": {
+            "md5": "da0ea72a9ff051b13a6ef6432f550fb2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_guid.h"
+          },
+          "hashes": {
+            "md5": "f7975e41359eaf33efa7d8fb3ba18a8a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_gamecontroller.h"
+          },
+          "hashes": {
+            "md5": "45dc0c3673e6073daf97bab560e1acac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_sensor.h"
+          },
+          "hashes": {
+            "md5": "fcbf618d84c9fad82506f9c63b04d796"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_quit.h"
+          },
+          "hashes": {
+            "md5": "48e23c0ec6ebf5b0b9c8ef9641a69024"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_gesture.h"
+          },
+          "hashes": {
+            "md5": "e79cc768ab4120828a5cb4ad1bdd4999"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_touch.h"
+          },
+          "hashes": {
+            "md5": "22c4be994dedc533a687ad23b3286e9b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_filesystem.h"
+          },
+          "hashes": {
+            "md5": "9a37cedb5a114b9510aa865043ca5a95"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_haptic.h"
+          },
+          "hashes": {
+            "md5": "566958fe1f9c7da91905a26dbc560b23"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_hidapi.h"
+          },
+          "hashes": {
+            "md5": "f1cb6611ff2f2e3308b3f780fd159827"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_hints.h"
+          },
+          "hashes": {
+            "md5": "1a3b909daaaff1429a237892dab7de51"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_loadso.h"
+          },
+          "hashes": {
+            "md5": "781c011c55e36d19928a7cf032676c33"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_log.h"
+          },
+          "hashes": {
+            "md5": "17b85a9100abeecd58ee205855202a49"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_messagebox.h"
+          },
+          "hashes": {
+            "md5": "0f96c969c09c1f5284482b02e43e4b2e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_metal.h"
+          },
+          "hashes": {
+            "md5": "7953e3450790d262577e82ab920a94ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_power.h"
+          },
+          "hashes": {
+            "md5": "6e9a7a77ca6bf21e7cdbd6888c8a9c88"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_render.h"
+          },
+          "hashes": {
+            "md5": "e14da3fd98f97e0df7e914e5c4645cba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_shape.h"
+          },
+          "hashes": {
+            "md5": "4c829b1b3a03884214ac05766dc26e71"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_system.h"
+          },
+          "hashes": {
+            "md5": "c399b36f2f87e959fe9073916917f7b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_timer.h"
+          },
+          "hashes": {
+            "md5": "76987b6e48366b6b2daf9273bfc55a46"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_version.h"
+          },
+          "hashes": {
+            "md5": "077e33ba902e2dade5b367b4d6b06a9a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_locale.h"
+          },
+          "hashes": {
+            "md5": "489e899bc86f11daf122189bda61008e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_misc.h"
+          },
+          "hashes": {
+            "md5": "8bc6152f5e6d27490aec9e790735f9a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/root/code-projects/snake/sdl2/sdl_ttf.h"
+          },
+          "hashes": {
+            "md5": "5189d556544f42b4ab71485bbc078900"
+          }
+        }
+      ]
+    }
+  ]
+}
